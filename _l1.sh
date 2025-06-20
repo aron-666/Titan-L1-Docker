@@ -396,7 +396,7 @@ view_docker_logs() {
     echo -e "${YELLOW}日誌顯示會實時更新，直到您按下 Ctrl+C${NC}"
     
     # 使用 timeout 命令運行 docker compose logs，這樣不會一直阻塞
-    timeout --foreground 30s docker compose logs --tail 100 --follow || true
+    timeout --foreground 30s docker compose logs --tail 100 --follow aron-titan-l1 || true
     echo -e "${GREEN}日誌查看已結束${NC}"
 }
 
