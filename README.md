@@ -1,3 +1,4 @@
+![Total Visitors](https://komarev.com/ghpvc/?username=aron-666-l1&color=green)
 # Titan L1 服務管理腳本
 
 一鍵部署和管理 Titan L1 挖礦服務的自動化腳本，支援 Docker 容器化部署，提供完整的服務生命週期管理。
@@ -10,8 +11,9 @@
 - **權限要求**: root 權限
 - **網路連接**: 穩定的網路連接
 - **硬體需求**: 
-  - 最低 2GB RAM
-  - 最低 20GB 可用磁碟空間
+  - 最低 16GB RAM
+  - 最低 4TB 可用磁碟空間
+  - CPU: 至少 8 核心 (若是虛擬核心需16核以上)
 - **軟體依賴**: 
   - Docker 和 Docker Compose (腳本可自動安裝)
   - Git (用於下載腳本)
